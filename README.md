@@ -15,9 +15,9 @@ npm install
 npm run dev
 ```
 ## TECHNOLOGIES
-- React JS (https://react.dev/)
-- Vite (https://vite.dev/)
-- NPM (https://www.npmjs.com/)
+- [React JS](https://react.dev/)
+- [Vite](https://vite.dev/)
+- [NPM](https://www.npmjs.com/)
 
 ## How to take part in this project
 You are free to fork this project, make improvement and submit a pull request to improve this project. If you find this useful or if you have suggestion, you can start discussing through my social media below.
