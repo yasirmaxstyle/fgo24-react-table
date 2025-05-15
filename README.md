@@ -1,5 +1,5 @@
 # MAKING TABLE IN REACT
-This program implements the use of useSate hooks in React component to get the data of input in a form. Further, the data will be passed to props, the to their children. Finally, the result of a form will be shown in the table.
+This program implements the use of useSate hooks in React component to get the data of input in a form. Further, the data will be passed through props to their children. Finally, the result of a form will be shown in the table.
 
 ## HOW TO TRY THIS PROGRAM
 1. Clone this project
