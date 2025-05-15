@@ -1,12 +1,28 @@
-# React + Vite
+# MAKING TABLE IN REACT
+This program implements the use of useSate hooks in React component to get the data of input in a form. Further, the data will be passed to props, the to their children. Finally, the result of a form will be shown in the table.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## HOW TO TRY THIS PROGRAM
+1. Clone this project
+```sh
+git clone https://github.com/yasirmaxstyle/fgo24-react-table
+```
+2. Install NPM
+```sh
+npm install
+```
+3. Run in dev mode
+```sh
+npm run dev
+```
+## TECHNOLOGIES
+- React JS (https://react.dev/)
+- Vite (https://vite.dev/)
+- NPM (https://www.npmjs.com/)
 
-Currently, two official plugins are available:
+## How to take part in this project
+You are free to fork this project, make improvement and submit a pull request to improve this project. If you find this useful or if you have suggestion, you can start discussing through my social media below.
+- [Instagram](https://www.instagram.com/yasirmaxstyle/)
+- [LinkedIn](https://www.linkedin.com/in/muhamad-yasir-806230117/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+This project is under MIT License
