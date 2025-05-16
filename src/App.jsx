@@ -31,6 +31,8 @@ function Table({ data }) {
 
 function App() {
   const [data, setData] = useState([])
+  const [isSmoker, setIsSmoker] = useState(true)
+
   function handleSubmit(e) {
     e.preventDefault()
     const formData = new FormData(e.target)
@@ -76,7 +78,7 @@ function App() {
               <label htmlFor="true">Ya</label>
             </div>
             <div className='flex gap-3'>
-              <input type="radio" name="isSmoker" id="false" value='tidak' />
+              <input type="radio" name="isSmoker" id="false" value='tidak' onChange={() => setIsSmoker(!isSmoker)} />
               <label htmlFor="false">Tidak</label>
             </div>
           </div>
@@ -85,19 +87,19 @@ function App() {
           <p>Jika anda perokok, rokok apa yang anda pernah coba?</p>
           <div className='flex gap-6'>
             <div className='flex gap-3'>
-              <input type="checkbox" name="brand" id="garpit" value='Gudang Garam Filter' />
+              <input type="checkbox" name="brand" id="garpit" value='Gudang Garam Filter' disabled={!isSmoker && true} />
               <label htmlFor="garpit">Gudang Garam Filter</label>
             </div>
             <div className='flex gap-3'>
-              <input type="checkbox" name="brand" id="lucky" value='Lucky Strike' />
+              <input type="checkbox" name="brand" id="lucky" value='Lucky Strike' disabled={!isSmoker && true} />
               <label htmlFor="lucky">Lucky Strike</label>
             </div>
             <div className='flex gap-3'>
-              <input type="checkbox" name="brand" id="marlboro" value='Marlboro' />
+              <input type="checkbox" name="brand" id="marlboro" value='Marlboro' disabled={!isSmoker && true} />
               <label htmlFor="marlboro">Marlboro</label>
             </div>
             <div className='flex gap-3'>
-              <input type="checkbox" name="brand" id="esse" value='Esse' />
+              <input type="checkbox" name="brand" id="esse" value='Esse' disabled={!isSmoker && true} />
               <label htmlFor="esse">Esse</label>
             </div>
           </div>
