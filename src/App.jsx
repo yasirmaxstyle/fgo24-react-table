@@ -74,11 +74,11 @@ function App() {
           <p>Apakah anda perokok?</p>
           <div className='flex gap-6'>
             <div className='flex gap-3'>
-              <input type="radio" name="isSmoker" id="true" value='ya' />
+              <input type="radio" name="isSmoker" id="true" value='ya' onChange={() => setIsSmoker(true)} />
               <label htmlFor="true">Ya</label>
             </div>
             <div className='flex gap-3'>
-              <input type="radio" name="isSmoker" id="false" value='tidak' onChange={() => setIsSmoker(!isSmoker)} />
+              <input type="radio" name="isSmoker" id="false" value='tidak' onChange={() => setIsSmoker(false)} />
               <label htmlFor="false">Tidak</label>
             </div>
           </div>
